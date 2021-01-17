@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/lightwhite"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/GoBackIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="goBack"
+            android:src="@drawable/ic_arrow_back_black_24dp"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile Detail"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/blackcolor"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:id="@+id/Avatar"
+                android:src="@drawable/foto_pribadi" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:id="@+id/username"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:fontFamily="arial"
+            android:textColor="@color/blackcolor"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:text="Nama"
+            android:layout_gravity="center"
+            android:fontFamily="arial"
+            android:textColor="@color/blackcolor"
+            android:textSize="25dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/company"
+            android:text="company"
+            android:layout_gravity="center"
+            android:fontFamily="arial"
+            android:textColor="@color/blackcolor"
+            android:textSize="25dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/location"
+            android:text="location"
+            android:layout_gravity="center"
+            android:fontFamily="arial"
+            android:textColor="@color/blackcolor"
+            android:textSize="25dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/repository"
+            android:text="repository"
+            android:layout_gravity="center"
+            android:fontFamily="arial"
+            android:textColor="@color/blackcolor"
+            android:textSize="25dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/follower"
+            android:text="follower"
+            android:layout_gravity="center"
+            android:fontFamily="arial"
+            android:textColor="@color/blackcolor"
+            android:textSize="25dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/following"
+            android:text="following"
+            android:layout_gravity="center"
+            android:fontFamily="arial"
+            android:textColor="@color/blackcolor"
+            android:textSize="25dp"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
